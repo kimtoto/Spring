@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sia.knights.BraveKnightTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-22T08:43:26" hostname="DESKTOP-E9KM0IQ" time="0.08">
+  <properties/>
+  <testcase name="knightShouldEmbarkOnQuest" classname="sia.knights.BraveKnightTest" time="0.08"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--원정빈 주입-->
+<bean id="knight" class="sia.knights.BraveKnight">
+    <constructor-arg ref="quest"></constructor-arg>
+</bean>
+
+<!-- PrintStream을 SlayDragonQuest의 생성자에게 넘긴다. -->
+<bean id="quest" class="sia.knights.SlayDragonQuest">
+    <constructor-arg value="#{T(System).out}"></constructor-arg>
+</bean>
+
+</beans>
